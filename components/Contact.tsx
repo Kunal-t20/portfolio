@@ -40,13 +40,15 @@ export default function Contact() {
             <Linkedin size={24} className="text-gray-400 group-hover:text-[#0a66c2] transition-colors" />
             <span className="font-medium text-foreground">LinkedIn</span>
           </Link>
-          <Link 
-            href="mailto:1202kunalmahajan@gmail.com" 
+          <a 
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=1202kunalmahajan@gmail.com" 
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center gap-2 bg-accent text-white hover:bg-accent/90 px-8 py-4 rounded-xl transition-all shadow-lg shadow-accent/20"
           >
             <Mail size={24} />
             <span className="font-medium">Email Me</span>
-          </Link>
+          </a>
         </div>
         
         <p className="text-sm text-gray-500">

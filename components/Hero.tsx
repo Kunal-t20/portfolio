@@ -45,13 +45,15 @@ export default function Hero() {
             <Linkedin size={20} className="text-accent group-hover:text-white transition-colors" />
             <span className="text-accent group-hover:text-white transition-colors">LinkedIn</span>
           </Link>
-          <Link 
-            href="mailto:1202kunalmahajan@gmail.com" 
+          <a 
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=1202kunalmahajan@gmail.com" 
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center gap-2 bg-accent text-black hover:bg-accent/90 px-6 py-3 rounded-lg transition-all hover:-translate-y-1 shadow-[0_0_20px_rgba(57,255,20,0.4)] hover:shadow-[0_0_30px_rgba(57,255,20,0.6)] font-semibold font-bold"
           >
             <Mail size={20} />
             <span>Email Me</span>
-          </Link>
+          </a>
         </div>
       </motion.div>
 
